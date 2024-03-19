@@ -1,0 +1,50 @@
+.project {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+  
+    .project__image-container {
+      flex: 1;
+      padding: 60px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 8px 0 0 8px;
+    }
+  
+    .project__image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      filter: brightness(70%);
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  
+    .project__content {
+      flex: 1;
+      padding: 20px;
+    //   background-color: rgba(255, 255, 255, 0.8); // Background color with faded effect
+    //   border-radius: 0 8px 8px 0;
+    }
+  
+    .project__title {
+      margin-top: 0;
+      font-weight: bold;
+    }
+  
+    .project__description {
+      margin-top: 10px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }

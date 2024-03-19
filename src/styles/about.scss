@@ -1,0 +1,47 @@
+.about__main{
+    display: flex;
+    flex-direction: column;
+    background: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    scroll-behavior: smooth;
+    color: white;
+    text-align: center;
+}
+.about__main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .about__main > div {
+    font-size: 2rem;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .phone_and_email {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .phone_and_email p {
+    margin: 0;
+    font-size: 1.5rem; /* Larger font size */
+    line-height: 2; /* Increased line height */
+  }
+  
+  .phone_and_email a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold; /* Bold font weight for links */
+  }
+  
+  .phone_and_email a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue color on hover */
+  }

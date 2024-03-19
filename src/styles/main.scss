@@ -1,0 +1,38 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .main__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Use viewport height for full screen */
+    color: white;
+    font-family: 'Arial', sans-serif; /* Use a suitable font family */
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1s ease; /* Apply the fade-in animation */
+  }
+  
+  .main__div {
+    margin-top: 20%;
+  }
+  
+  .main__div h1 {
+    font-size: 3rem; /* Larger font size for the heading */
+    margin-bottom: 10px;
+  }
+  
+  .main__div p {
+    font-size: 1.5rem; /* Larger font size for the paragraphs */
+    margin-bottom: 10px;
+  }
